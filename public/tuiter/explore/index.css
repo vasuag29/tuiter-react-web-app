@@ -1,0 +1,113 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial;
+    border-color: rgb(47, 51, 54);
+    padding-left: 16px;
+}
+
+.wd-search-bar input {
+    color: white;
+    background-color: rgb(43, 42, 42);
+    border-radius: 50px;
+    border-width: 0px;
+    border-style: solid;
+    height: 30px;
+    width: 430px;
+
+    margin-right: 20px;
+    margin-left: 17px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+
+    padding-left: 25px;
+    background-image: url("http://kodyrabatowe.wp.pl/img/ico/search_gr.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    outline: 0;
+}
+
+.wd-search-bar a {
+    color: rgb(29, 161, 242);
+    font-size: 2em;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.wd-nav-bar {
+    color: rgb(110, 118, 125);
+    padding: 0px;
+    border-style: solid;
+    border-bottom-width: 3px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-color: rgb(47, 51, 54);
+
+    margin-bottom: 0px;
+    /*display: block;*/
+    /*margin-block-start: 1em;*/
+    /*margin-block-end: 1em;*/
+    /*margin-inline-start: 0px;*/
+    /*margin-inline-end: 0px;*/
+}
+
+.wd-nav-bar span {
+    padding: 16px;
+}
+
+.wd-nav-bar li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.wd-nav-bar .wd-nav-bar-selected {
+    color: rgb(29, 161, 242);
+    border-bottom: solid 4px;
+}
+
+.wd-nav-bar-separator {
+    background-color: rgb(20, 20, 19);
+    padding-top: 20px;
+}
+
+.wd-post-header{
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+}
+
+.wd-post-footer{
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+}
+
+.wd-post-type1{
+    border-style: solid;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 1px;
+    border-color: rgb(47, 51, 54);
+
+    padding: 10px 20px 10px 10px;
+    padding-bottom: 25px;
+}
+
+.wd-post-type2{
+    border-style: solid;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 1px;
+    border-color: rgb(47, 51, 54);
+
+    padding: 10px 20px 10px 10px;
+    padding-bottom: 25px;
+
+}
+
+.wd-post-type2 img {
+}
