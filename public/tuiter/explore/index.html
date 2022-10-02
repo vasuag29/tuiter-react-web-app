@@ -6,24 +6,30 @@
 
     <link href="index.css"
           rel="stylesheet"/>
+    <link href="../styles.css"
+          rel="stylesheet"/>
 </head>
 <body>
 
 <!-------- Search bar----------->
 <div class="wd-search-bar">
-    <input type="text" placeholder="Search Tuiter"/>
-    <div><a href="explore-settings.html">&#x2699;</a></div>
+    <div id="wd-search-bar-content">
+        <input type="text" placeholder="Search Tuiter"/>
+        <div><a href="explore-settings.html">&#x2699;</a></div>
+    </div>
 </div>
 
 <!-------- Nav bar----------->
-<ul class="wd-nav-bar">
-    <span><li class="wd-nav-bar-selected"><a href="">For you</a></li></span>
-    <span><li><a href="">Trending</a></li></span>
-    <span><li><a href="">COVID-19</a></li></span>
-    <span><li><a href="">News</a></li></span>
-    <span> <li><a href="">Sports</a></li></span>
-    <span><li><a href="">Entertainment</a></li></span>
-</ul>
+<div class="wd-container-nav-bar">
+    <ul class="wd-nav-bar">
+        <span><li class="wd-nav-bar-selected"><a href="">For you</a></li></span>
+        <span><li><a href="">Trending</a></li></span>
+        <span><li><a href="">COVID-19</a></li></span>
+        <span><li><a href="">News</a></li></span>
+        <span> <li><a href="">Sports</a></li></span>
+        <span><li><a href="">Entertainment</a></li></span>
+    </ul>
+</div>
 
 <!---------------- Nav bar separator---------------------->
 <div class="wd-nav-bar-separator"></div>
@@ -46,9 +52,9 @@
 
 <div class="wd-post-type2">
     <div>
-    <span class="wd-post-header"> US Elections &#x2022; LIVE</span>
+        <span class="wd-post-header"> US Elections &#x2022; LIVE</span>
         <br/>
-    <span><b>Massachusetts: Election news and updates</b></span>
+        <span><b>Massachusetts: Election news and updates</b></span>
     </div>
     <img src="explore_post3.jpeg" height="30px" width="30px"/>
 </div>
@@ -70,13 +76,13 @@
 
 <div class="wd-post-type2">
     <div>
-        <span class="wd-post-header2"> The Times and The Sunday Times</span><span class="wd-post-header"> &#x2022; Yesterday</span>
+        <span class="wd-post-header2"> The Times and The Sunday Times</span><span
+            class="wd-post-header"> &#x2022; Yesterday</span>
         <br/>
         <span><b>Elon Musk unveils Tesla’s humanoid robot Optimus</b></span>
     </div>
     <img src="explore_post1.jpeg" height="30px" width="30px"/>
 </div>
-
 
 
 </body>

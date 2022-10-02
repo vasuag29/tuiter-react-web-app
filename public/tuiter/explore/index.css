@@ -1,12 +1,12 @@
-body {
-    background-color: black;
-    color: white;
-    font-family: Arial;
-    border-color: rgb(47, 51, 54);
+.wd-explore-page {
     padding-left: 16px;
 }
 
-.wd-search-bar input {
+.wd-search-bar {
+
+}
+
+.wd-search-bar #wd-search-bar-content input {
     color: white;
     background-color: rgb(43, 42, 42);
     border-radius: 50px;
@@ -27,7 +27,7 @@ body {
     outline: 0;
 }
 
-.wd-search-bar div {
+.wd-search-bar #wd-search-bar-content div {
     display: inline-block;
     text-align: center;
 
@@ -35,22 +35,26 @@ body {
     padding-right: 5px;
 }
 
-.wd-search-bar div a {
+.wd-search-bar #wd-search-bar-content div a {
     text-decoration: none;
     color: rgb(29, 161, 242);
     font-size: 2em;
     margin-top: 5px;
 }
 
-.wd-nav-bar {
-    color: rgb(110, 118, 125);
-    padding: 0px;
+.wd-container-nav-bar {
     border-style: solid;
     border-bottom-width: 3px;
     border-left-width: 0px;
     border-right-width: 0px;
     border-top-width: 0px;
     border-color: rgb(47, 51, 54);
+}
+
+.wd-nav-bar {
+    color: rgb(110, 118, 125);
+    padding: 0px;
+
 
     margin-bottom: 0px;
     /*display: block;*/
@@ -93,22 +97,22 @@ body {
     border-color: rgb(43, 42, 42);
 }
 
-.wd-post-header{
+.wd-post-header {
     font-size: 13px;
     color: rgb(110, 118, 125);
 }
 
-.wd-post-header2{
+.wd-post-header2 {
     font-weight: bold;
     font-size: 13px;
 }
 
-.wd-post-footer{
+.wd-post-footer {
     font-size: 13px;
     color: rgb(110, 118, 125);
 }
 
-.wd-post-type1{
+.wd-post-type1 {
     border-style: solid;
     border-left-width: 0px;
     border-right-width: 0px;
@@ -119,7 +123,7 @@ body {
     padding: 15px 20px 15px 10px;
 }
 
-.wd-post-type2{
+.wd-post-type2 {
     border-style: solid;
     border-bottom-width: 0px;
     border-left-width: 0px;
