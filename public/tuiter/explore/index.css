@@ -66,14 +66,27 @@
     border-radius: 20px;
 }
 
-.wd-content-list > div > div > span {
-    color: rgb(43, 42, 42);
+.wd-content-row > div > span {
+    color: dimgray;
+}
+
+.wd-content-row > div > a {
+    color: black;
+    font-weight: bold;
+}
+
+.wd-content-row .wd-content-posttime {
+    color: dimgray;
+    font-weight: normal;
+}
+
+.wd-content-row .wd-content-tuits {
+    color: dimgray;
+    font-weight: normal;
 }
 
 .wd-content-image {
-    /*width: 120px;*/
-    width: 100%;
-    height: 100%;
-    /*height: 100px;*/
+    width: 90px;
+    height: 90px;
     border-radius: 10px;
 }
