@@ -98,6 +98,15 @@
     border-radius: 10px;
 }
 
+@media (max-width: 768px)
+{
+    .wd-content-image {
+        width: 70px;
+        height: 70px;
+        border-radius: 10px;
+    }
+}
+
 .list-group-item-action {
     color: black;
 }
