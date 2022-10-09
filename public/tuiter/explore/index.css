@@ -1,5 +1,7 @@
 .fa-stack.small {
     font-size: 0.5em;
+    margin-left: 7px;
+    margin-right: -7px;
 }
 
 .wd-btn-tuit {
@@ -75,6 +77,11 @@
     font-weight: bold;
 }
 
+.wd-content-row > div > p {
+    color: black;
+    font-weight: bold;
+}
+
 .wd-content-row .wd-content-posttime {
     color: dimgray;
     font-weight: normal;
@@ -89,4 +96,8 @@
     width: 90px;
     height: 90px;
     border-radius: 10px;
+}
+
+.list-group-item-action {
+    color: black;
 }
