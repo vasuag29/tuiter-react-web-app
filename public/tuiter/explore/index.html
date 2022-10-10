@@ -116,7 +116,7 @@
 
             <!--            Tuit button-->
             <div class="d-grid gap-2">
-                <button class="btn btn-primary wd-btn-tuit" type="button">Tuit</button>
+                <button class="btn btn-primary rounded-pill" type="button">Tuit</button>
             </div>
 
         </div>
@@ -126,7 +126,7 @@
             <!--            Search bar-->
             <div class="row">
                 <div class="col ps-0 pe-0">
-                    <div class="wd-search-bar">
+                    <div class="wd-search-bar rounded-pill">
                         <label class="wd-search-icon" for="wd-search-field">
                             <i class="fa-solid fa-magnifying-glass"></i>
                         </label>
@@ -170,9 +170,9 @@
             </div>
 
             <!--            Main content-->
-            <div class="row mt-2 wd-main-image">
-                <img src="../../images/image_explore_main.webp"/>
-                <span>SpaceX's Starship</span>
+            <div class="row mt-2 wd-main-image position-relative">
+                <img class="px-0" src="../../images/image_explore_main.webp" width="100%"/>
+                <h1 class="position-absolute bottom-0 text-white">SpaceX's Starship</h1>
             </div>
 
             <div class="row">
@@ -180,23 +180,25 @@
                     <div class="list-group-item wd-content-list">
                         <div class="row pe-2 wd-content-row">
                             <div class="col pe-0">
-                                <span>Web Development</span>
+                                <span class="text-secondary">Web Development</span>
                                 <br/>
                                 <a href="#"
-                                   class="list-group-item-action text-decoration-none">
+                                   class="list-group-item-action
+                                   fw-bold
+                                   text-decoration-none">
                                     ReactJS
                                 </a>
                                 <i class="fa-solid fa-circle-check"></i>
-                                <span class="wd-content-posttime"> - 2h</span>
+                                <span class="text-secondary"> - 2h</span>
                                 <br/>
-                                <p>
+                                <p class="fw-bold">
                                     React.js is a component based front end library that makes
                                     it very easy to build Single Page Applications or SPAs
                                 </p>
                             </div>
                             <div class="col-2 align-self-center
                                         me-xxl-1 me-xl-3 me-lg-3 me-md-2 me-sm-2">
-                                <img class="wd-content-image"
+                                <img class="wd-content-image rounded-3"
                                      src="../../images/image_react.svg" alt="React">
                             </div>
                         </div>
@@ -205,21 +207,23 @@
                         <div class="row pe-2 wd-content-row">
                             <div class="col pe-0">
                                 <a href="#"
-                                   class="list-group-item-action text-decoration-none">
+                                   class="list-group-item-action
+                                   fw-bold
+                                   text-decoration-none">
                                     JavaScript
                                 </a>
                                 <i class="fa-solid fa-circle-check"></i>
-                                <span class="wd-content-posttime"> - Today</span>
+                                <span class="text-secondary"> - Today</span>
                                 <br/>
-                                <p class="mb-0">
+                                <p class="mb-0 fw-bold text-dark">
                                     JavaScript is a programming language that can run on
                                     browsers as well as desktops
                                 </p>
-                                <span class="wd-content-tuits">123K Tuits</span>
+                                <span class="text-secondary">123K Tuits</span>
                             </div>
                             <div class="col-2 align-self-center
                                         me-xxl-1 me-xl-3 me-lg-3 me-md-2 me-sm-2">
-                                <img class="wd-content-image"
+                                <img class="wd-content-image rounded-3"
                                      src="../../images/image_javascript.png" alt="Javascript">
                             </div>
                         </div>
@@ -227,18 +231,19 @@
                     <div class="list-group-item wd-content-list">
                         <div class="row pe-2 wd-content-row">
                             <div class="col pe-0">
-                                <span>Web Development</span>
+                                <span class="text-secondary">Web Development</span>
                                 <br/>
                                 <a href="#"
-                                   class="list-group-item-action text-decoration-none">
+                                   class="list-group-item-action text-decoration-none
+                                            fw-bold">
                                     JQuery
                                     <br/>
                                 </a>
-                                <span class="wd-content-tuits">56.8K Tuits</span>
+                                <span class="text-secondary">56.8K Tuits</span>
                             </div>
                             <div class="col-2 align-self-center
                                         me-xxl-1 me-xl-3 me-lg-3 me-md-2 me-sm-2">
-                                <img class="wd-content-image"
+                                <img class="wd-content-image rounded-3"
                                      src="../../images/image_jquery.png" alt="JQuery">
                             </div>
                         </div>
@@ -246,20 +251,22 @@
                     <div class="list-group-item wd-content-list">
                         <div class="row pe-2 wd-content-row">
                             <div class="col pe-0">
-                                <span>Web Development</span>
+                                <span class="text-secondary">Web Development</span>
                                 <br/>
                                 <a href="#"
-                                   class="list-group-item-action text-decoration-none">
+                                   class="list-group-item-action
+                                   fw-bold
+                                   text-decoration-none">
                                     NodeJS
                                 </a>
                                 <i class="fa-solid fa-circle-check"></i>
-                                <span class="wd-content-posttime"> - 9h</span>
+                                <span class="text-secondary"> - 9h</span>
                                 <br/>
-                                <span class="wd-content-tuits">1.6M Tuits</span>
+                                <span class="text-secondary">1.6M Tuits</span>
                             </div>
                             <div class="col-2 align-self-center
                                         me-xxl-1 me-xl-3 me-lg-3 me-md-2 me-sm-2">
-                                <img class="wd-content-image"
+                                <img class="wd-content-image rounded-3"
                                      src="../../images/image_nodejs.png" alt="Nodejs">
                             </div>
                         </div>
@@ -281,7 +288,7 @@
                 <li class="list-group-item wd-suggestions-row-item">
                     <div class="row">
                         <div class="col-2 align-self-center">
-                            <img class="wd-suggestion-image"
+                            <img class="wd-suggestion-image rounded-circle"
                                  src="../../images/image_java.png" alt="Java">
                         </div>
                         <div class="col ms-2">
@@ -291,12 +298,12 @@
                             </a>
                             <i class="fa-solid fa-circle-check"></i>
                             <br/>
-                            @Java
+                            <span class="text-secondary">@Java</span>
                         </div>
                         <div class="col-xxl-3 col-xl-3 col-lg-4
                                     align-self-center">
                             <button type="button"
-                                    class="btn btn-primary wd-btn-follow">
+                                    class="btn btn-primary rounded-pill">
                                 Follow
                             </button>
                         </div>
@@ -305,7 +312,7 @@
                 <li class="list-group-item wd-suggestions-row-item">
                     <div class="row">
                         <div class="col-2 align-self-center">
-                            <img class="wd-suggestion-image"
+                            <img class="wd-suggestion-image rounded-circle"
                                  src="../../images/image_relativity_space.jpeg"
                                  alt="Relativity Space">
                         </div>
@@ -316,12 +323,12 @@
                             </a>
                             <i class="fa-solid fa-circle-check"></i>
                             <br/>
-                            @relativityspace
+                            <span class="text-secondary">@relativityspace</span>
                         </div>
                         <div class="col-xxl-3 col-xl-3 col-lg-4
                                     align-self-center">
                             <button type="button"
-                                    class="btn btn-primary wd-btn-follow">
+                                    class="btn btn-primary rounded-pill">
                                 Follow
                             </button>
                         </div>
@@ -330,7 +337,7 @@
                 <li class="list-group-item wd-suggestions-row-item">
                     <div class="row">
                         <div class="col-2 align-self-center">
-                            <img class="wd-suggestion-image"
+                            <img class="wd-suggestion-image rounded-circle"
                                  src="../../images/image_virgingalactic.svg"
                                  alt="Virgin Galactic">
                         </div>
@@ -341,12 +348,12 @@
                             </a>
                             <i class="fa-solid fa-circle-check"></i>
                             <br/>
-                            @virgingalactic
+                            <span class="text-secondary">@virgingalactic</span>
                         </div>
                         <div class="col-xxl-3 col-xl-3 col-lg-4
                                     align-self-center">
                             <button type="button"
-                                    class="btn btn-primary wd-btn-follow">
+                                    class="btn btn-primary rounded-pill">
                                 Follow
                             </button>
                         </div>
@@ -355,7 +362,7 @@
                 <li class="list-group-item wd-suggestions-row-item">
                     <div class="row">
                         <div class="col-2 align-self-center">
-                            <img class="wd-suggestion-image"
+                            <img class="wd-suggestion-image rounded-circle"
                                  src="../../images/image_nasa.webp" alt="NASA">
                         </div>
                         <div class="col ms-2">
@@ -365,12 +372,12 @@
                             </a>
                             <i class="fa-solid fa-circle-check"></i>
                             <br/>
-                            @NASA
+                            <span class="text-secondary">@NASA</span>
                         </div>
                         <div class="col-xxl-3 col-xl-3 col-lg-4
                                     align-self-center">
                             <button type="button"
-                                    class="btn btn-primary wd-btn-follow">
+                                    class="btn btn-primary rounded-pill">
                                 Follow
                             </button>
                         </div>
@@ -379,7 +386,7 @@
                 <li class="list-group-item wd-suggestions-row-item">
                     <div class="row">
                         <div class="col-2 align-self-center">
-                            <img class="wd-suggestion-image"
+                            <img class="wd-suggestion-image rounded-circle"
                                  src="../../images/image_tesla.png" alt="Tesla">
                         </div>
                         <div class="col ms-2">
@@ -389,12 +396,12 @@
                             </a>
                             <i class="fa-solid fa-circle-check"></i>
                             <br/>
-                            @Tesla
+                            <span class="text-secondary">@Tesla</span>
                         </div>
                         <div class="col-xxl-3 col-xl-3 col-lg-4
                                     align-self-center">
                             <button type="button"
-                                    class="btn btn-primary wd-btn-follow">
+                                    class="btn btn-primary rounded-pill">
                                 Follow
                             </button>
                         </div>
