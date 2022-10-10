@@ -2,6 +2,77 @@
     background-color: black;
 }
 
+.list-group {
+    border-radius: 20px;
+}
+
+.list-group-item {
+    background-color: black;
+    color: rgb(215, 219, 219) !important;
+    border-color: transparent;
+}
+
+.wd-suggestions-row-item {
+    background-color: rgb(20, 20, 20);
+    color: rgb(215, 219, 219) !important;
+    border-color: transparent;
+}
+
+.wd-suggestions-row-item > h5 {
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: rgb(110, 118, 125) !important;
+    font-weight: bold;
+    padding: 15px 20px;
+}
+
+.nav-item .active {
+    background-color: transparent !important;
+    color: rgb(215, 219, 219) !important;
+    border: none;
+    border-bottom: 5px solid rgb(29, 161, 242) !important;
+    border-radius: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.nav-tabs{
+    border: none;
+}
+
+.list-group-item-action {
+    background-color: transparent;
+    color: rgb(215, 219, 219) !important;
+}
+
+.list-group-item-action.active {
+    background-color: black;
+    color: rgb(215, 219, 219) !important;
+    border: none;
+    font-weight: bold;
+}
+
+.list-group-item-action:hover {
+    color: rgb(215, 219, 219) !important;
+    text-decoration: none;
+    background-color: black !important;
+}
+
+.btn-primary {
+    background-color: rgb(29, 161, 242);
+}
+
+.wd-content-column {
+    border: solid rgb(43, 42, 42);
+    border-top: none;
+    border-bottom: none;
+}
+
 .fa-stack.small {
     font-size: 0.5em;
     margin-left: 7px;
@@ -11,14 +82,16 @@
 .wd-search-bar {
     display: flex;
     border: 1px solid black;
-    padding: 0 0 0 12px ;
+    padding: 5px 0 5px 12px ;
+    background-color: rgb(43, 42, 42);
 }
 
-.wd-search-icon {
+.wd-search-bar .wd-search-icon {
     background: transparent;
     border: none;
     outline: none;
     align-self: center;
+    color: rgb(110, 118, 125);
 }
 
 .wd-search-bar .wd-search-field {
@@ -27,15 +100,24 @@
     border: none;
     border-radius: 100px;
     outline: none;
+    background: transparent;
+    color: rgb(110, 118, 125);
 }
 
 .wd-settings-button {
-    font-size: 28px;
+    font-size: 17px;
+    color: rgb(215, 219, 219);
 }
 
 .wd-suggestion-image {
     width: 50px;
     height: 50px;
+    background-color: white;
+}
+
+.wd-main-image {
+    border-top: 2px solid rgb(43, 42, 42);
+    border-bottom: 2px solid rgb(43, 42, 42);
 }
 
 .wd-content-image {
@@ -49,8 +131,4 @@
         width: 70px;
         height: 70px;
     }
-}
-
-.list-group-item-action {
-    color: black;
 }
