@@ -2,6 +2,10 @@
     background-color: black;
 }
 
+.wd-logo {
+    font-size: 1.4em;
+}
+
 .list-group {
     border-radius: 20px;
 }
@@ -10,6 +14,11 @@
     background-color: black;
     color: rgb(215, 219, 219) !important;
     border-color: transparent;
+}
+
+.wd-left-sidebar .list-group-item-action {
+    padding: 15px 0px !important;
+    font-size: 1.2em;
 }
 
 .wd-suggestions-row-item {
@@ -75,8 +84,8 @@
 
 .fa-stack.small {
     font-size: 0.5em;
-    margin-left: 7px;
-    margin-right: -7px;
+    margin-left: 2px;
+    margin-right: -2px;
 }
 
 .wd-search-bar {
@@ -104,6 +113,17 @@
     color: rgb(110, 118, 125);
 }
 
+.wd-btn-tuit {
+    margin-left: -20px;
+}
+
+.wd-btn-tuit > button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
 .wd-settings-button {
     font-size: 17px;
     color: rgb(215, 219, 219);
@@ -118,6 +138,24 @@
 .wd-main-image {
     border-top: 2px solid rgb(43, 42, 42);
     border-bottom: 2px solid rgb(43, 42, 42);
+}
+
+.wd-main-image > h3 {
+    left: 6px;
+}
+
+.wd-main-image > h3 > i {
+    color: orange;
+    rotate: -30deg;
+}
+
+.wd-main-image > h3 > span {
+    color: white !important;
+    font-size: 0.5em !important;
+}
+
+.wd-content-row span {
+    font-size: 0.9em;
 }
 
 .wd-content-image {
