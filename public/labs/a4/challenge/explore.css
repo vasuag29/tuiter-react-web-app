@@ -98,6 +98,10 @@
     padding-left: 3%;
 }
 
+.nav-tabs .nav-link {
+    border: none;
+}
+
 .list-group-item-action {
     background-color: transparent;
     color: rgb(215, 219, 219) !important;
@@ -110,10 +114,16 @@
     font-weight: bold;
 }
 
+.list-group-item-action:focus {
+    color: rgb(215, 219, 219) !important;
+    text-decoration: none;
+    background-color: transparent !important;
+}
+
 .list-group-item-action:hover {
     color: rgb(215, 219, 219) !important;
     text-decoration: none;
-    background-color: black !important;
+    background-color: transparent !important;
 }
 
 .btn-primary {
