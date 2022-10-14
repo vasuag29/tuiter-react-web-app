@@ -23,6 +23,7 @@
     border: none;
     border-radius: 100px;
     outline: none;
+    background: transparent;
 }
 
 .wd-settings-button {
@@ -39,6 +40,11 @@
     height: 90px;
 }
 
+.wd-main-image > h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
 @media (max-width: 768px)
 {
     .wd-content-image {
@@ -47,6 +53,19 @@
     }
 }
 
-.list-group-item-action {
-    color: black;
+@media (max-width: 1200px)
+{
+    .wd-follow-button {
+        margin: -5px;
+    }
+
+    .wd-suggestion-image {
+        width: 40px;
+        height: 40px;
+    }
+
+    .wd-recommendation-content {
+        padding-right: 0px;
+        padding-left: 9px;
+    }
 }
