@@ -2,9 +2,12 @@ function PostSummaryItem(post) {
     return (`
     <div class="list-group-item wd-content-list">
         <div class="row pe-2 wd-content-row">
-            <div class="col pe-0">
-                <span class="text-secondary">${post.topic}</span>
+            <div class="col pe-0 wd-explore-post-details">
+                <span class="text-secondary
+                ${post.topic ? '' : 'd-none'}">
+                ${post.topic}
                 <br/>
+                </span>
                 <a href="#"
                    class="list-group-item-action
                    fw-bold

@@ -1,12 +1,13 @@
-const NavigationSidebar = () => {
+const NavigationSidebar = (activePage) => {
     return (`
             <div class="list-group mb-2 wd-left-sidebar mx-auto">
                 <a href="#"
                    class="list-group-item list-group-item-action">
                     <i class="fa-brands fa-twitter"></i>
                 </a>
-                <a href="#"
-                   class="list-group-item list-group-item-action">
+                <a href="../HomeScreen/index.html"
+                   class="list-group-item list-group-item-action
+                   ${activePage.toLowerCase() === 'home' ? 'active' : ''}">
                     <div class="row">
                         <i class="col-1 fa-solid fa-house align-self-center"></i>
                         <span class="col d-xxl-block d-xl-block d-lg-none d-md-none d-sm-none d-xs">
@@ -14,8 +15,9 @@ const NavigationSidebar = () => {
                         </span>
                     </div>
                 </a>
-                <a href="#"
-                   class="list-group-item list-group-item-action active">
+                <a href="../explore/index.html"
+                   class="list-group-item list-group-item-action 
+                   ${activePage.toLowerCase() === 'explore' ? 'active' : ''}">
                     <div class="row">
                         <i class="col-1 fa-solid fa-hashtag align-self-center"></i>
                         <span class="col d-xxl-block d-xl-block d-lg-none d-md-none d-sm-none d-xs">
@@ -24,7 +26,8 @@ const NavigationSidebar = () => {
                     </div>
                 </a>
                 <a href="#"
-                   class="list-group-item list-group-item-action">
+                   class="list-group-item list-group-item-action 
+                   ${activePage.toLowerCase() === 'notifications' ? 'active' : ''}">
                     <div class="row">
                         <i class="col-1 fa-solid fa-bell align-self-center"></i>
                         <span class="col d-xxl-block d-xl-block d-lg-none d-md-none d-sm-none d-xs">
@@ -33,7 +36,8 @@ const NavigationSidebar = () => {
                     </div>
                 </a>
                 <a href="#"
-                   class="list-group-item list-group-item-action">
+                   class="list-group-item list-group-item-action 
+                   ${activePage.toLowerCase() === 'messages' ? 'active' : ''}">
                     <div class="row">
                         <i class="col-1 fa-solid fa-envelope align-self-center"></i>
                         <span class="col d-xxl-block d-xl-block d-lg-none d-md-none d-sm-none d-xs">
@@ -42,7 +46,8 @@ const NavigationSidebar = () => {
                     </div>
                 </a>
                 <a href="#"
-                   class="list-group-item list-group-item-action">
+                   class="list-group-item list-group-item-action 
+                   ${activePage.toLowerCase() === 'bookmarks' ? 'active' : ''}">
                     <div class="row">
                         <i class="col-1 fa-solid fa-bookmark align-self-center"></i>
                         <span class="col d-xxl-block d-xl-block d-lg-none d-md-none d-sm-none d-xs">
@@ -51,7 +56,8 @@ const NavigationSidebar = () => {
                     </div>
                 </a>
                 <a href="#"
-                   class="list-group-item list-group-item-action">
+                   class="list-group-item list-group-item-action 
+                   ${activePage.toLowerCase() === 'lists' ? 'active' : ''}">
                     <div class="row">
                         <i class="col-1 fa-solid fa-list align-self-center"></i>
                         <span class="col d-xxl-block d-xl-block d-lg-none d-md-none d-sm-none d-xs">
@@ -60,7 +66,8 @@ const NavigationSidebar = () => {
                     </div>
                 </a>
                 <a href="#"
-                   class="list-group-item list-group-item-action">
+                   class="list-group-item list-group-item-action 
+                   ${activePage.toLowerCase() === 'profile' ? 'active' : ''}">
                     <div class="row">
                         <i class="col-1 fa-solid fa-user align-self-center"></i>
                         <span class="col
@@ -71,7 +78,8 @@ const NavigationSidebar = () => {
                     </div>
                 </a>
                 <a href="#"
-                   class="list-group-item list-group-item-action">
+                   class="list-group-item list-group-item-action 
+                   ${activePage.toLowerCase() === 'more' ? 'active' : ''}">
                     <div class="row">
                         <span class="col-1 fa-stack small fa-1x align-self-center">
                             <i class="fa-regular fa-circle fa-stack-2x"></i>

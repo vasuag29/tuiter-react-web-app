@@ -30,6 +30,22 @@
     font-size: 28px;
 }
 
+.wd-explore-post-details .list-group-item-action:hover {
+    background: transparent;
+}
+
+.wd-explore-post-details .list-group-item-action:focus {
+    background: transparent;
+}
+
+.wd-recommendation-content .list-group-item-action:hover {
+    background: transparent;
+}
+
+.wd-recommendation-content .list-group-item-action:focus {
+    background: transparent;
+}
+
 .wd-suggestion-image {
     width: 50px;
     height: 50px;
