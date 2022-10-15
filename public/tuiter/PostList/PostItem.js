@@ -1,6 +1,6 @@
 const PostItem = (post) => {
     return (`
-    <li class="list-group-item wd-post-list-item">
+    <li class="list-group-item pt-3 wd-post-list-item">
         <div class="row">
             <div class="col-1 me-3">
             <img src="${post.userImage}" 

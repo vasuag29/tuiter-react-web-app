@@ -3,6 +3,10 @@
     height: 65px;
 }
 
+.wd-post-header {
+    margin-left: -11px;
+}
+
 .wd-post-header .list-group-item-action:hover{
     background: transparent;
 }
