@@ -3,9 +3,8 @@ const PostItem = (post) => {
     <li class="list-group-item pt-3 wd-post-list-item">
         <div class="row">
             <div class="col-1 me-3">
-            <img src="${post.userImage}" 
-                width="50px" height="50px" 
-                class="rounded-circle"/>
+            <img src="${post.userImage}"
+                class="wd-post-user-img rounded-circle"/>
             </div>
             <div class="col me-2">
                 <div class="wd-post-header">
@@ -54,7 +53,7 @@ const PostItem = (post) => {
                         </div>
                     </div>
                 </div>
-                <div class="row mt-3">
+                <div class="row mt-3 wd-post-button-row">
                     <div class="col me-1">
                         <a class="text-decoration-none text-secondary" href="#">
                             <i class="fa-regular fa-comment me-2"></i>
