@@ -1,10 +1,11 @@
 import React from "react";
+import {useLocation} from "react-router";
+import {Link} from "react-router-dom";
 
-const NavigationSidebar = (
-    {
-        active = "explore"
-    }
-) => {
+const NavigationSidebar = () => {
+    const {pathname} = useLocation();
+    const paths = pathname.split('/');
+    const active = paths[2];
     return (
         <>
             <div className="list-group mb-2 wd-left-sidebar mx-auto">
@@ -12,8 +13,8 @@ const NavigationSidebar = (
                    className="list-group-item list-group-item-action">
                     <i className="fa-brands fa-twitter"></i>
                 </a>
-                <a href="../HomeScreen/index.html"
-                   className={`list-group-item list-group-item-action
+                <Link to="/tuiter/home"
+                      className={`list-group-item list-group-item-action
                    ${active.toLowerCase() === 'home' ? 'active' : ''}`}>
                     <div className="row">
                         <i className="col-1 fa-solid fa-house align-self-center"></i>
@@ -22,9 +23,9 @@ const NavigationSidebar = (
                             Home
                         </span>
                     </div>
-                </a>
-                <a href="../explore/index.html"
-                   className={`list-group-item list-group-item-action
+                </Link>
+                <Link to="/tuiter/explore"
+                      className={`list-group-item list-group-item-action
                    ${active.toLowerCase() === 'explore' ? 'active' : ''}`}>
                     <div className="row">
                         <i className="col-1 fa-solid fa-hashtag align-self-center"></i>
@@ -33,7 +34,13 @@ const NavigationSidebar = (
                             Explore
                         </span>
                     </div>
-                </a>
+                </Link>
+                <Link to="/" className="list-group-item list-group-item-action">
+                    <span
+                        className="col d-xxl-block d-xl-block d-lg-none d-md-none d-sm-none d-xs">
+                            Labs
+                    </span>
+                </Link>
                 <a href="#"
                    className={`list-group-item list-group-item-action
                    ${active.toLowerCase() === 'notifications' ? 'active' : ''}`}>
