@@ -1,0 +1,87 @@
+.fa-stack.small {
+    font-size: 0.5em;
+    margin-left: 7px;
+    margin-right: -7px;
+}
+
+.wd-search-bar {
+    display: flex;
+    border: 1px solid black;
+    padding: 0 0 0 12px ;
+}
+
+.wd-search-icon {
+    background: transparent;
+    border: none;
+    outline: none;
+    align-self: center;
+}
+
+.wd-search-bar .wd-search-field {
+    width: 100%;
+    padding: 6px 35px 6px 15px;
+    border: none;
+    border-radius: 100px;
+    outline: none;
+    background: transparent;
+}
+
+.wd-settings-button {
+    font-size: 28px;
+}
+
+.wd-explore-post-details .list-group-item-action:hover {
+    background: transparent;
+}
+
+.wd-explore-post-details .list-group-item-action:focus {
+    background: transparent;
+}
+
+.wd-recommendation-content .list-group-item-action:hover {
+    background: transparent;
+}
+
+.wd-recommendation-content .list-group-item-action:focus {
+    background: transparent;
+}
+
+.wd-suggestion-image {
+    width: 50px;
+    height: 50px;
+}
+
+.wd-content-image {
+    width: 90px;
+    height: 90px;
+}
+
+.wd-main-image > h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+@media (max-width: 768px)
+{
+    .wd-content-image {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+@media (max-width: 1200px)
+{
+    .wd-follow-button {
+        margin: -5px;
+    }
+
+    .wd-suggestion-image {
+        width: 40px;
+        height: 40px;
+    }
+
+    .wd-recommendation-content {
+        padding-right: 0px;
+        padding-left: 9px;
+    }
+}
