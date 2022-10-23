@@ -23,14 +23,13 @@
 }
 
 .wd-post-card .card-img-top {
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
 }
 
 .wd-post-card {
     background: transparent;
-    border: 1px solid rgb(43, 42, 42);
-    border-radius: 15px;
+    border-radius: 15px !important;
 }
 
 .wd-post-card .card-body {

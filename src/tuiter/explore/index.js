@@ -4,7 +4,7 @@ import PostSummaryList from "../post-summary-list";
 
 const ExploreComponent = () => {
     return (
-        <>
+        <div className="ms-3 me-3">
             <div className="row">
                 <div className="col ps-0 pe-0">
                     <div className="wd-search-bar bg-white rounded-pill">
@@ -58,7 +58,7 @@ const ExploreComponent = () => {
             <div className="row">
                 <PostSummaryList/>
             </div>
-        </>
+        </div>
     );
 };
 

@@ -35,7 +35,7 @@ const PostItem = (
                        text-decoration-none">
                                 {post.userName}
                             </a>
-                            <i className="fa-solid fa-circle-check"></i>
+                            <i className="fa-solid fa-circle-check ms-1 me-1"></i>
                             <span className="text-secondary">@{post.handle}</span>
                             <span className="text-secondary"> &#xb7; {post.time}</span>
                             <a className="float-end" href="#">
@@ -49,8 +49,8 @@ const PostItem = (
                         <div className="row">
                             <div className="card wd-post-card ps-0 pe-0">
                                 <img className={`card-img-top
-                        ${post.image_title ?
-                          'rounded-top-4' : 'rounded-4'}`}
+                                    ${post.image_title ? 
+                                      'rounded-top-4' : 'rounded-4'}`}
                                      src={post.image} alt="Post image"/>
                                 <div className={`card-body
                         ${post.image_title && post.image_description ?
@@ -65,7 +65,7 @@ const PostItem = (
                                     </div>
                                     <a className={`text-decoration-none text-secondary
                             ${post.image_link ? '' : 'd-none'}`}
-                                       href="http://${post.image_link}"
+                                       href={`http://${post.image_link}`}
                                        target="_blank"
                                        rel="noopener noreferrer">
                                         <i className=" fa-solid fa-link"></i>

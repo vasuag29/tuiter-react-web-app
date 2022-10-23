@@ -2,6 +2,7 @@ import React from "react";
 import PostItem from "./post-item";
 import homeScreenPosts from "./posts.json";
 import "../index.css";
+import "../explore/index.css";
 
 const HomeComponent = () => {
     return (

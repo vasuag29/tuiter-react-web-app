@@ -12,7 +12,7 @@ const Tuiter = () => {
                     mx-auto">
                 <NavigationSidebar/>
             </div>
-            <div className="col ms-2 me-2">
+            <div className="col ps-0 pe-0">
                 <Routes>
                     <Route path="home" element={<HomeComponent/>}/>
                     <Route path="explore" element={<ExploreComponent/>}/>
