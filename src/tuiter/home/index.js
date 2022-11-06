@@ -1,19 +1,14 @@
 import React from "react";
-import PostItem from "./post-item";
-import homeScreenPosts from "./posts.json";
 import "../index.css";
 import "../explore/index.css";
+import TuitsList from "../tuits/tuits-list";
+import WhatsHappening from "./whats-happening";
 
 const HomeComponent = () => {
     return (
         <>
-            <ul className="list-group mb-3 ps-0 pe-0">
-                {
-                    homeScreenPosts.map(postItem =>
-                        <PostItem key={postItem._id} post={postItem}/>
-                    )
-                }
-            </ul>
+            <WhatsHappening/>
+            <TuitsList/>
         </>
     );
 };

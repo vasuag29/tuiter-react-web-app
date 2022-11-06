@@ -8,9 +8,10 @@ import {configureStore} from "@reduxjs/toolkit";
 import whoReducer from "./reducers/who-reducer";
 import {Provider} from "react-redux";
 import tuitsReducer from "./tuits/tuits-reducer";
+import postsReducer from "./reducers/post-summary-list-reducer";
 
 const store = configureStore(
-    {reducer: {who: whoReducer, tuits: tuitsReducer}});
+    {reducer: {who: whoReducer, posts: postsReducer, tuits: tuitsReducer}});
 
 const Tuiter = () => {
     return (
