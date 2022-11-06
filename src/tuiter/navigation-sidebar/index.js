@@ -85,7 +85,7 @@ const NavigationSidebar = () => {
                         </span>
                     </div>
                 </a>
-                <a href="#"
+                <Link to="/tuiter/profile"
                    className={`list-group-item list-group-item-action
                    ${active.toLowerCase() === 'profile' ? 'active' : ''}`}>
                     <div className="row">
@@ -96,7 +96,7 @@ const NavigationSidebar = () => {
                             Profile
                         </span>
                     </div>
-                </a>
+                </Link>
                 <a href="#"
                    className={`list-group-item list-group-item-action
                    ${active.toLowerCase() === 'more' ? 'active' : ''}`}>
