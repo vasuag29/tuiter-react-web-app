@@ -1,5 +1,6 @@
 import {useDispatch} from "react-redux";
 import {likeTuitToggle} from "./tuits-reducer";
+import {updateTuitThunk} from "../../services/tuits-thunks";
 
 const TuitStats = (
     {
@@ -34,11 +35,27 @@ const TuitStats = (
                 <a className={`text-decoration-none text-secondary
                 ${tuit.liked ? 'text-danger' : ''}
                 `}
-                   href="#"
-                onClick={() => toggleLike(tuit)}>
+                   onClick={() => {
+                       dispatch(updateTuitThunk({
+                                                    ...tuit,
+                                                    likes: tuit.likes + 1
+                                                }))
+                   }}>
                     <i className={`${tuit.liked ? 'fa-solid' : 'fa-regular'} 
                     fa-heart me-2`}></i>
                     <span>{tuit.likes}</span>
+                </a>
+            </div>
+            <div className="col me-1">
+                <a className="text-decoration-none text-secondary"
+                   onClick={() => {
+                       dispatch(updateTuitThunk({
+                                                    ...tuit,
+                                                    dislikes: tuit.dislikes + 1
+                                                }))
+                   }}>
+                    <i className="fa-regular fa-thumbs-down me-2"></i>
+                    <span>{tuit.dislikes}</span>
                 </a>
             </div>
             <div className="col me-1">
