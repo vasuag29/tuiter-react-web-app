@@ -1,0 +1,125 @@
+.wd-container-title {
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: rgb(110, 118, 125);
+    margin-left: -7px;
+}
+
+.wd-bookmarks-title {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 16px;
+}
+
+.wd-bookmarks-title .wd-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.wd-bookmarks-title .wd-username {
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+}
+
+.wd-container-bookmark-object {
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: rgb(110, 118, 125);
+}
+
+.wd-container-bookmark {
+    margin-left: 16px;
+    margin-top: 12px;
+    clear: both;
+    width: 600px;
+    height: 670px;
+}
+
+.wd-author-avatar {
+    width: 10%;
+    float: left;
+}
+
+.wd-container-bookmark .wd-author-avatar img {
+    height: 48px;
+    width: 48px;
+    clip-path: circle();
+    margin-right: 12px;
+}
+
+.wd-bookmark-post-details {
+    /*display: inline-block;*/
+    width: 520px;
+    float: left;
+    font-size: 15px;
+}
+
+.wd-author-handle {
+    color: rgb(110, 118, 125);
+}
+
+.wd-container-bookmark .wd-bookmark-post-details .wd-bookmark-content {
+    width: 506px;
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+
+.wd-container-bookmark .wd-bookmark-post-details .wd-bookmark-image-content img {
+    width: 504px;
+    height: 264px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.wd-bookmark-image-content {
+    width: 504px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(110, 118, 125);
+    margin-bottom: 12px;
+}
+
+.wd-bookmark-image-content-text {
+    font-size: 15px;
+    margin-top: 12px;
+    padding: 12px;
+}
+
+.wd-bookmark-image-content-text span {
+    font-weight: bold;
+}
+
+.wd-bookmark-image-content-text p {
+    color: rgb(110, 118, 125);
+}
+
+.wd-bookmark-post-icons > ul {
+    margin: 12px 0px 0px 0px;
+    padding-left: 0px;
+}
+
+.wd-bookmark-post-icons li {
+    list-style-type: none;
+    display: inline-block;
+    width: 24%;
+}
+
+.wd-footer-icon {
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(110, 118, 125);
+}
+
+.wd-footer-icon span {
+    margin-left: 12px;
+    font-size: 15px;
+}
+
+.wd-footer-icon.icon-heart {
+    color: red;
+}
+
+.wd-footer-icon span > .icon-heart {
+    color: red;
+}
